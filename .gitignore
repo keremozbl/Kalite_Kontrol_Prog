@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Projeye özel dinamik dosyalar
+uretim_kayitlari.db
+uretim_kayitlari.db-journal
+uretim_kayitlari.db-wal
+logs/
+nok_images/
+debug_masks/
+*.log
+
+# Excel raporları
+Üretim_Raporu_*.xlsx
+
+# Test scriptleri (opsiyonel, isterseniz silebilirsiniz)
+test_camera.py
+test_hsv.py
